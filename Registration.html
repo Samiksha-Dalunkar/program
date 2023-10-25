@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css?style.css">
+    <style>
+        table,th,td{
+            height:80px;
+        }
+        table,th,td{
+            text-align:center;
+        }
+        form{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: bisque;
+        }
+        .container{
+            padding: 50px;
+            background-color:#ADD8E6 ;
+        }
+        input[type=text],input[type=password],textarea{
+            width:100%;
+            padding:15px;
+            margin:5px 0 22px 0;
+            display:inline-block;
+            border:none;
+            background-color: antiquewhite;
+        }
+        hr{
+            border: 1px solid#9BC2E6;
+            margin-top: 25px;
+        }
+        .register{
+            background-color: aliceblue;
+            color:white;
+            padding:16px 20px;
+            margin:8px 0;
+            border:none;
+            cursor:pointer;
+            width:100%;
+            opacity:0.9;
+        }
+    
+    </style>
+</head>
+<body>
+<b> <h1><font color="red " size="9" >School Webpage</font></h1></b>
+<table style="width:100%;" cellpadding="5" border-collapse="0">
+<tr>&nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<img src=" city school.png" width="300px" height="200px"  ></tr>
+<tr style=" background-color:#9BC2E6 ;">
+
+<td align="center"><a href="home.html">Home</a></td>
+<td align="center"><a href="Gallery.html">Gallery</a></td>
+<td align="center"><a href="facilities.html">Facilities</a></td>
+<td align="center"><a href="Registration.html">Registration</a></td>
+<td align="center"><a href="contact.html">Contact</a></td>
+</tr>
+</table>
+
+<form>
+    <div class="Container">
+    <center> <h1> Student Registration Form</h1></center>
+    <hr>
+   <b> <label>First Name:<br></label>
+    <input type="text" autofocus  name="first name" placeholder="First Name"  required></b><br><br>
+  <b>  <label>Middle Name:<br></label>
+    <input type="text" name="middle name" placeholder="Middle Name" required></b><br><br>
+   <b> <label>Last Name:<br></label>
+    <input type="text" name="last name" placeholder="Last Name" required   ></b><br><br>
+    <b><label>School Name:<br></label>
+   <input type="text"  name="School name" placeholder="School Name" required></b><br><br>                                                              </b>
+<div>
+<b><label>Class:</label></b>
+<select>
+<option value="1st class">1st class</option>
+<option value="2nd class">2nd class</option>
+<option value="3rd class">3rd class</option>
+<option value="4rth class">4rth class</option>
+<option value="5th class">5th class</option>
+<option value="6th class">6th class</option>
+<option value="7th class">7th class</option>
+<option value="8thclass">8th class</option>
+<option value="9th class">9th class</option>
+<option value="10th class">10th class</option>
+</select>
+</div><br>
+<div>
+<b> <label>Gender:</label></b><br>
+<input type="radio" value="Male" name="gender"  > Male 
+<input type="radio" value="Female" name="gender" >Female
+<input type="radio" value="Other" name="gender" >Other
+</div><br>
+<b><label>Aadhaar Card No:</label></b>
+<input type="id"><br><br>
+<b><label> Parents Contact  No:</label></b>
+<input type="text" name="Country code" placeholder="Country Code" value="+91">
+<br><br>
+<b><label> Email ID: </label></b>
+<input type="text"><br><br>
+<b><label>Password:</label></b>
+<input type="Password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+<input type="button" value="show"><br><br>
+<b><label> Date of Birth:</label><br></b>
+<input type="date" max="2020-12-31"><br><br>
+<b>Current Address:</b><br>
+<textarea name="" id="" cols="50" rows="5"></textarea><br><br>
+<b><label>Upload Documents:</label></b><br><br>
+<input type="file" multiple><br><br>
+<input type="hidden" name="" id=""><br><br>
+
+<input type="submit" value="Register">
+<hr>
+</form>
+</body>
+</html>
+
